@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+button{
+    cursor: pointer;
+}
+:root{
+--Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Very-Pale-Blue: hsl(210, 100%, 98%);
+
+}
+
+p{
+    font-size: 14px;
+}
+
+h4{
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--Pink);
+    cursor: pointer;
+    color: #fff;
+    width: 200px;
+    font-size: small;
+    font-weight: 700;
+}
+
+.img-desk{
+    display: none;
+}
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 12px  0  12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    border: solid 1px #ff8fd8;
+    color: var(--Pink);
+    border-radius: 50px;
+    font-size: 12px;
+    width: 80px;
+}
+.logo img {
+    width: 110px;
+    height: 20px;
+}
+
+
+
+.people img {
+    width: 250px;
+}
+
+
+
+
+/*home*/
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.home h2{
+    font-size: 1.5em;
+    margin: 25px 0 25px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home p {
+    width: 300px;
+}
+
+.home .center-item {
+    margin-bottom: 25px;
+}
+
+.home button{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.main-principal-img img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+
+.box  .min-crad {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    margin-bottom: 75px;   
+}
+
+.im img {
+    width: 25px;
+}
+
+.min-crad h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5em;
+}
+
+/*people*/
+
+.people-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.text{
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.small{
+    color: gray;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.people-box p,h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.people-box{
+    background-color: var(--Very-Pale-Blue);
+}
+
+.white{
+    background-color: #fff;
+}
+
+.people img{
+    margin-top: 55px;
+}
+
+/*banner*/
+
+.banner-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*subrodape*/
+
+.sub-rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.bloco-txt{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.bloco-txt h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*footer*/
+
+footer .rodape-inverte{
+    background-color: var(--Very-Dark-Cyan);
+}
+
+ .rodape-inverte{
+    margin-top: -6px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    padding: 25px;
+}
+
+
+
+.normal{
+display: flex;
+flex-direction: column-reverse;
+
+}
+
+.rodape-inverte h5 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rodape-inverte p {
+    margin-bottom: 20px;
+}
+
+
+/*input form*/
+
+input {
+    width: 323px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    border: none;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+}
+
+input:focus{
+    outline: none;
+   
+}
+
+/*logo footer*/
+
+.logo-footer a img {
+ width: 200px;
+ filter: grayscale(25) invert(50) brightness(1);
+ margin-top: 50px;
+ margin-bottom: 10px;
+}
+
+.inverte p {
+    line-height: 25px;
+}
+
+.mar p{
+    margin-bottom: 20px;
+}
+
+/*line box input*/
+#line input{
+    border: 1.5px solid #fff;
+}
+
+
+ .min-txt-box{
+    position: relative;
+    top: -15px;
+}
+
+
+/*btn*/
+
+.btn-subscribe{
+    background-color: var(--Pink);
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-subscribe:hover{
+    background-color: var(--Light-Pink);
+}
+
+/*line row*/
+
+.line-icons{
+    display: flex;
+    align-items: baseline;
+}
+
+.line-icons i {
+    margin-right: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.row i {
+    justify-content: baseline;
+    margin-right: 25px;
+}
+
+.social i:hover {
+    color: cyan;
+    cursor: pointer;
+}
+
+.t1{
+    width: 320px;
+}
+
+.t2{
+    width: 320px;
+}
+
+
+
+
+
+@media screen and (min-width:1440px){
+    /*Header  && logo*/
+
+    .logo img {
+        width: 250px;
+        height: auto;
+    }
+
+    header{
+        display: flex;
+        justify-content:space-between;
+        margin: 25px 40px  0  40px;
+    }
+
+    /*home && button*/
+    .home h2{
+        font-size: 2.7em;
+    }
+
+    .sub-rodape h2{
+     font-size: 1.9em;
+    }
+
+   .center-item  p{
+        position: relative;
+        left: 225px;
+       align-items: center;
+        width:440px ;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .btn{
+        width: 300px;
+        padding: 20px;
+        border-radius: 50px;
+    }
+
+    .main-principal-img img {
+        min-width: 850px;
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        width: 650px;
+    }
+    .min-crad:first-child{
+         margin-right: 95px;
+    }
+
+    .min-crad:last-child{
+        margin-left: 95px;
+    }
+
+    .box  .min-crad {
+        margin-top: 28px;
+        margin-bottom: 45px;
+        
+    }
+
+    .min-crad h3 {
+        font-size: 4.5em;
+    }
+
+    .im img {
+        width: 40px;
+        position: relative;
+        left: -75px;
+    }
+
+    
+
+    .img {
+        display: none;
+    }
+
+    .img-desk{
+        display: block;
+    }
+
+    .people-box{
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .people img{
+        margin-top: 0px;
+    }
+
+   .text .t1{
+       
+        width: 775px;
+        
+    }
+    
+   .text .t2{
+    
+        width: 770px;
+    }
+    
+   .text .t3{
+    
+        width: 775px;
+    }
+
+    .people-box{
+        padding: 50px;
+    }
+    
+    
+
+    .false{
+        display: none;
+    }
+
+    h4{
+        font-size: 2.2em;
+    }
+    .text p {
+        font-size: 1.5em;
+        width: 625px;
+    }
+
+    .people img {
+        width: 450px;
+    }
+
+    .invert{
+        flex-direction: row-reverse;
+    }
+
+    header button {
+        padding: 4px;
+        border: none;
+        background-color: transparent;
+        border: solid 1px pink;
+        border-radius: 50px;
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .normal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  
+
+    .inverte{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 550px;
+   }
+
+   .sub-rodape{
+    margin-top: 125px;
+    margin-bottom: 150px;
+}
+
+
+form button{
+    position: relative;
+    top: -75px;
+    left: -50px;
+    padding: 17px;
+}
+
+
+
+input {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.min-txt-box{
+    position: relative;
+    top: 50px;
+    left: -320px;
+}
+
+.rodape-inverte h5 {
+    font-size: 1.5em;
+    margin-top: 45px;
+}
+
+.rodape-inverte .nine {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 335px;
+}
+
+}
